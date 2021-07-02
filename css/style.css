@@ -1,0 +1,127 @@
+/* header background rgba(255, 255, 255, 0.9)  footer background #e8e8e6; p #363945; span #5b6b7f;
+h1 font-family: 'Segoe UI', sans-serif; font-size: 2.6em; font-weight: 400;
+grey #484551;
+blue :#4fa3db;*/
+
+/************* initialisation *************/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/************** Header **************/
+
+header {
+  padding: 5px 25px;
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.logo-css {
+  width: 60px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.navmenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #484551;
+}
+
+.navmenu a:hover {
+  text-decoration: underline;
+  color: #4fa3db;
+}
+
+.navmenu li {
+  font-weight: 550px;
+  font-size: 14px;
+}
+
+/************** about-section **************/
+.about-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 2.6em;
+  font-weight: 400;
+  color: #484551;
+}
+
+#css-span {
+  color: #4fa3db;
+  font-weight: bold;
+}
+
+.watchvideo-btn {
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.watchvideo-btn:hover {
+  background-color: #4fa3db;
+  color: white;
+  border: #4fa3db;
+}
+
+/************** projects-section **************/
+
+.projects-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.project {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
+}
+
+.project p {
+  line-height: 30px;
+}
+
+.project a {
+  color: #4fa3db;
+}
+
+/************* footer *************/
+footer {
+  background-color: #e8e8e6;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-message span {
+  color: #5b6b7f;
+}
